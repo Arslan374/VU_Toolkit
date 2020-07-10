@@ -1,2 +1,2 @@
 # VU_Toolkit
-Chrome extension toCopy &amp; search questions from Vu quizzes &amp; take screenshots.
+Chrome extension to copy &amp; search questions from Vu quizzes &amp; take screenshots.
