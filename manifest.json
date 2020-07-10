@@ -1,6 +1,6 @@
 {
   "name": " VU Toolkit",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "permissions": [
     "activeTab",
     "declarativeContent",
@@ -18,7 +18,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://quiz.vu.edu.pk/QuizQuestion.aspx*"],
+      "matches": ["*://quiz.vu.edu.pk/QuizQuestion.aspx*"],
       "js": ["fba.js", "fbd.js", "contentScript.js"]
     }
   ],
