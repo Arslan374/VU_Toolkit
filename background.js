@@ -1,1 +1,10 @@
-chrome.declarativeContent.onPageChanged.removeRules(void 0,(function(){chrome.declarativeContent.onPageChanged.addRules([{conditions:[new chrome.declarativeContent.PageStateMatcher({pageUrl:{}})],actions:[new chrome.declarativeContent.ShowPageAction]}])})),chrome.runtime.onInstalled.addListener((function(){window.open("VU Toolkit.html","_blank")}));
+chrome.declarativeContent.onPageChanged.removeRules(void 0, function () {
+  chrome.declarativeContent.onPageChanged.addRules([
+    {
+      conditions: [
+        new chrome.declarativeContent.PageStateMatcher({ pageUrl: {} }),
+      ],
+      actions: [new chrome.declarativeContent.ShowPageAction()],
+    },
+  ]);
+});
