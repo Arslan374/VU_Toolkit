@@ -1,5 +1,5 @@
 if (-1 == window.location.href.indexOf("quiz.vu.edu.pk/QuizQuestion"))
-  window.alert("No Question Found.");
+  window.alert("No Question Found.\nThis extention only works on VU Quizzes.");
 else {
   var i = 0,
     x = "",
