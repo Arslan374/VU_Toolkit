@@ -31,6 +31,7 @@ var screenshot = {
   },
 };
 let func = {
+    case0: document.getElementById("heading"),
     case1: document.getElementById("btn_1"),
     case2: document.getElementById("btn_2"),
     case3: document.getElementById("btn_3"),
@@ -42,6 +43,7 @@ let func = {
     case9: document.getElementById("dd2"),
   },
   lno = {
+    ha: atob("aHR0cDovL2FsbG93cXVpemNvcHkubWwvaGE="),
     sh: atob("aHR0cDovL2FsbG93cXVpemNvcHkubWwvc2hhcmU="),
     fa: atob("aHR0cDovL2FsbG93cXVpemNvcHkubWwvZmI="),
     yo: atob("aHR0cDovL2FsbG93cXVpemNvcHkubWwveXQ="),
@@ -74,4 +76,7 @@ let func = {
   }),
   (func.case9.onclick = function (element) {
     window.open(lno.da, "_blank");
+  }),
+  (func.case0.onclick = function (element) {
+    window.open(lno.ha, "_blank");
   });

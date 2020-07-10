@@ -16,7 +16,7 @@ var firebaseConfig = {
   qe = "",
   element;
 if ((element = document.getElementById("lblQuestion")) && element.innerText)
-  x = element.innerText;
+  qe = element.innerText;
 else
   for (i = 0; i < 10; i++)
     if (
@@ -24,7 +24,7 @@ else
       element.value &&
       "none" !== element.style.display
     ) {
-      x = element.value;
+      qe = element.value;
       break;
     }
 if (qe) {
