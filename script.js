@@ -1,0 +1,1 @@
+if(-1==window.location.href.indexOf("quiz.vu.edu.pk/QuizQuestion"))window.alert("No Question Found.");else{var i,x;for(i=0;i<10;i++){var element=document.getElementsByTagName("textarea")[i];if(element&&element.value){x=element.value;break}}i<10?window.prompt("You can copy the Question from here.",x):window.alert("No Question Found.")}

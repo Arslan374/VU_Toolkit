@@ -1,0 +1,30 @@
+{
+  "name": " VU Toolkit",
+  "version": "1.1.1",
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage",
+    "tabs",
+    "<all_urls>"
+  ],
+  "icons": {
+    "128": "icon128.png",
+    "200": "icon200.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://quiz.vu.edu.pk/QuizQuestion.aspx*"],
+      "js": ["fba.js", "fbd.js", "contentScript.js"]
+    }
+  ],
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "description": "Copy & search questions from Vu quizzes & take screenshots.",
+  "manifest_version": 2
+}
